@@ -1,0 +1,22 @@
+name: zeon_analytics
+description: A Flutter analytics SDK for Zeon Analytics dashboard. Track events, identify users, and gain insights in realtime.
+version: 1.0.0
+homepage: https://github.com/ragul-pr/zeon_analytics
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  package_info_plus: ^4.2.0
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
